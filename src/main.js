@@ -1,4 +1,7 @@
 import './style.css';
+import { inject } from '@vercel/analytics';
+inject();
+
 
 // Hamburger dropdown toggle
 const mobileBtn = document.getElementById('mobile-btn');
